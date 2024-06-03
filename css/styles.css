@@ -133,16 +133,16 @@ ul {
 }
 
 .section-first {
-  display: flex;
-  flex-direction: column;
   background-color: #2e2f42;
   height: 600px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -377,6 +377,7 @@ ul {
 
 .section-portfolio .container {
   padding: 0;
+  max-width: 1128px;
 }
 
 .section-portfolio-list {
@@ -442,8 +443,6 @@ ul {
 }
 
 .portfolio-img-card {
-  top: 0;
-  left: 0;
   position: relative;
   overflow: hidden;
 }
